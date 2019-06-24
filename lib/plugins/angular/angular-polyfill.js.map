@@ -1,0 +1,1 @@
+{"version":3,"file":"angular-polyfill.js","sourceRoot":"","sources":["../../../src/plugins/angular/angular-polyfill.ts"],"names":[],"mappings":";;AAAA,uBAAqB;AACrB,+BAA6B;AAC7B,6BAA2B;AAE3B,IAAI,OAAO,CAAC,GAAG,CAAC,GAAG,KAAK,YAAY,EAAE;CAErC;KAAM;IAEL,KAAK,CAAC,eAAe,GAAG,QAAQ,CAAC;IAEjC,OAAO,CAAC,oCAAoC,CAAC,CAAC;CAC/C"}

@@ -1,0 +1,1 @@
+{"version":3,"file":"identity-loader.js","sourceRoot":"","sources":["../../../src/plugins/shared/identity-loader.ts"],"names":[],"mappings":"AAAA,MAAM,CAAC,OAAO,GAAG,UAAS,OAAO,EAAE,GAAG,EAAE,IAAI;IAC1C,IAAI,CAAC,QAAQ,CAAC,IAAI,EAAE,OAAO,EAAE,GAAG,EAAE,IAAI,CAAC,CAAC;IACxC,OAAO;AACT,CAAC,CAAC"}
