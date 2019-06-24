@@ -290,31 +290,6 @@ const createConfig = (builder: Builder, spin: Spin) => {
     };
   }
 
-  if (webpackVer >= 4) {
-    if (spin.dev) {
-      config = {
-        ...config,
-        optimization: {
-          removeAvailableModules: false,
-          removeEmptyChunks: false,
-          splitChunks: false
-        }
-      };
-    } else {
-      config = {
-        ...config,
-        optimization: {
-          minimize: builder.minify,
-          concatenateModules: builder.minify,
-          namedModules: true,
-          removeAvailableModules: false,
-          removeEmptyChunks: false,
-          noEmitOnErrors: true
-        }
-      };
-    }
-  }
-
   if (stack.hasAny('dll')) {
     const name = `vendor_${humps.camelize(builder.parent.name)}`;
     config = {
