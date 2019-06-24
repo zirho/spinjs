@@ -431,23 +431,6 @@ const createConfig = (builder: Builder, spin: Spin) => {
           }
         };
       }
-      if (webpackVer >= 4 && !spin.dev) {
-        config.optimization.splitChunks = {
-          cacheGroups: {
-            commons: {
-              test: /[\\/]node_modules[\\/].*\.(js|mjs|ejs)$/,
-              name: 'vendor',
-              chunks: 'all'
-            },
-            styles: {
-              name: 'index',
-              test: /\.(css|sass|less|scss)$/,
-              chunks: 'all',
-              enforce: true
-            }
-          }
-        };
-      }
     } else if (stack.hasAny('react-native')) {
       config = {
         ...config,
